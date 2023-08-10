@@ -1,0 +1,8 @@
+.home-text:active, .about-text:active, .portfolio-text:active, .contact-text:active {
+    display: flexbox;
+    margin: auto;
+    color: rgba(240, 255, 255, 0.486);
+    text-shadow: 6px 5px 8px #00000052;
+    t
+    
+}

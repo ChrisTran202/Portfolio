@@ -1,0 +1,242 @@
+html {
+    
+    display: inline-flexbox;
+    margin: auto;
+    scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+
+    }
+
+body {
+    display: flexbox;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+;
+
+}
+h1 {
+    display: block;
+    
+}
+
+
+ul {
+    width: 15vw;
+    height: auto;
+    align-items:center;
+    align-content: center;
+    display: inline-flexbox;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 1rem;
+    float: left;
+    padding-left: 1px ;
+    text-align: center;
+    
+    
+}
+
+li {
+    width: 1rem;
+    height: auto;
+    display: inline-flexbox;
+    margin: 10px;
+    scroll-behavior: smooth;
+    
+}
+
+
+a {
+    font-size: 1.5vw;
+    width: auto;
+    height: auto;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 4px 4px 3px #0062ff91;
+    
+   
+
+}
+
+a:hover, .home-text:hover, .about-text:hover, .portfolio-text:hover, .contact-text:hover {
+    text-shadow: 6px 5px 8px #000000;
+    color: #807d7d;
+    transition: .5s;
+    
+}
+
+a:active, .home-text:active, .about-text:active, .portfolio-text:active, .contact-text:active {
+    text-shadow: 6px 5px 8px #010c60;
+    color: #002aff;
+    
+}
+
+
+img {
+    display: flexbox;
+    margin-left: 35vw;
+    border-radius: 35%;
+    height: 20vw;
+    width: auto;
+    box-shadow: 10px 9px 20px #000000a4;
+    
+}
+
+
+    
+
+
+
+.img-container {
+    display: flexbox;
+    margin: 1vw;
+
+}
+
+.navbar-link {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: azure;
+    text-shadow: 6px 5px 8px #0062ff91;
+    margin: 5px;
+    background-color: ;
+    
+    
+}
+
+
+
+
+
+.profile-name {
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    margin: 1vw;
+    display: flexbox;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 20px 5px 20px #0062ff91;
+    font-size: 7vw;
+    font-size-adjust: auto;
+    padding-right: 150px;
+   
+    
+    
+    
+}
+
+/* capitol letters */
+.first-name, .last-name {
+    font-size: 10vw;
+    font-weight: bold;
+    width: 10%;
+}
+
+
+.contact-info-container {
+    
+    display: flexbox space-evenly;
+    margin: auto;
+    border-width: .2vw;
+    width: 30%;
+    height: 10vw;
+    border-color: aliceblue;
+    border-style: ridge;
+    background-color: rgba(78, 78, 78, 0.475);
+    border-radius: 25vw;
+    position: static;
+    padding-bottom: 50px;
+    
+}
+
+.submit-info-title {
+    font-size: 2vw;
+    font-weight: bold;
+    text-shadow: 6px 5px 8px #000000a4;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    display: inline-flexbox;
+    text-align: center;
+    font-weight: bold;
+    
+    
+
+}
+
+.link-containers {
+    margin: 1vw;
+    height:2vw ;
+    
+}
+
+.intro-paragraph {
+    display: flexbox ;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    font-size: 1.5vw;
+    width: 500px;
+    
+
+}
+
+.intro-container {
+    display: inline-flexbox;
+    margin: 1vw;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+
+.home-text, .about-text, .portfolio-text, .contact-text{
+    display: flexbox;
+    margin: auto;
+    color: rgba(240, 255, 255, 0);
+    text-shadow: 6px 5px 8px #00000000;
+    transition: .5s;
+    ;
+}
+
+.language-icon {
+    font-size: 3vw;
+    display: flexbox;
+    width: 100%;
+    text-align: center;
+    text-shadow: 20px 5px 15px #0062ff91;
+    
+
+}
+
+svg {
+    height: 6vw;
+    margin: 2vw;
+    box-shadow: 1px 1px 50px #0062ffa1;
+    border-radius: 25px;
+}

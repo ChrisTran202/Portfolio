@@ -1,18 +1,20 @@
+
 html {
-    
     display: inline-flexbox;
-    margin: auto;
+    margin: none;
     scroll-behavior: smooth;
-    background-color: rgb(0, 0, 0);
-    background-repeat:no-repeat;
+    background-image: linear-gradient(to left top, #a46bd1, #8b7ee2, #6e8fed, #4f96f2, #32aaf2, #29a0e2, #2196d2, #1a8cc2, #176ca1, #134d7f, #0d305e, #05163d);
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
+    
     
 
     }
 
 body {
+    margin: none;
     display: flexbox;
     align-content: center;
     align-items: center;
@@ -21,10 +23,10 @@ body {
     background-size: cover;
     width: 100%;
     height: 100%;
+    
+    
+    }
 
-;
-
-}
 h1 {
     display: block;
     
@@ -90,15 +92,21 @@ a:active, .home-text:active, .about-text:active, .portfolio-text:active, .contac
 
 
 img {
-    display: flexbox;
-    margin-left: 35vw;
-    border-radius: 35%;
+    border-radius: 7rem;
+    margin: 1px;
+    width: 35vw;
     height: 20vw;
-    width: auto;
-    box-shadow: 10px 9px 20px #000000a4;
-    
+    text-shadow: 20px 5px 20px #0062ff91;   
 }
 
+
+svg {
+    height: 5vw;
+    width: auto;
+    margin: 2vw;
+    box-shadow: 1px 1px 50px #0062ffa1;
+    border-radius: 25px;
+}
 
     
 
@@ -139,7 +147,7 @@ img {
     text-shadow: 20px 5px 20px #0062ff91;
     font-size: 7vw;
     font-size-adjust: auto;
-    padding-right: 150px;
+    padding-right: 200px;
    
     
     
@@ -197,8 +205,8 @@ img {
     text-align: center;
     align-content: center;
     margin: auto;
-    font-size: 1.5vw;
-    width: 500px;
+    font-size: 25px;
+    width: 700px;
     
 
 }
@@ -221,22 +229,46 @@ img {
     color: rgba(240, 255, 255, 0);
     text-shadow: 6px 5px 8px #00000000;
     transition: .5s;
-    ;
 }
 
-.language-icon {
-    font-size: 3vw;
+.skill-container {
     display: flexbox;
     width: 100%;
     text-align: center;
     text-shadow: 20px 5px 15px #0062ff91;
+    justify-content: space-between;
     
-
 }
 
-svg {
-    height: 6vw;
-    margin: 2vw;
-    box-shadow: 1px 1px 50px #0062ffa1;
-    border-radius: 25px;
+.skill-title {
+    display: flexbox;
+    margin: 45%;
+    font-size: 3vw;
+}
+
+.project-container {
+    display:grid;
+    grid-template-rows:400px ;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 2rem 5rem;
+    height: vw;
+}
+.project {
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.project-2 {
+    display: flexbox;
+    width: auto;
+    height: auto;
+    margin: 25px;
+    
+}
+
+.project-title-container {
+    display: flexbox;
+    font-size: 2vw;
+    text-align: center;
 }

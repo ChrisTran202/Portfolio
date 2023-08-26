@@ -272,3 +272,7 @@ svg {
     font-size: 2vw;
     text-align: center;
 }
+
+.codepen {
+    margin: 100px;
+}

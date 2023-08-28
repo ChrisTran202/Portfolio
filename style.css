@@ -93,10 +93,10 @@ a:active, .home-text:active, .about-text:active, .portfolio-text:active, .contac
 }
 
 p {
-    margin: 10px;
+    margin: 1vw;
     width: 35vw;
     height: 8vw;
-    padding-top: 12px;
+    padding-top: 1vw;
     justify-content: center;
     text-align: center;
 
@@ -247,8 +247,8 @@ svg {
 }
 .project {
     text-align: center;
-    margin: 10px;
-    font-size: 17px;
+    margin: 10vw;
+    font-size: 1.2vw;
     
     
 }
@@ -259,11 +259,10 @@ svg {
 }
 
 .project-2 {
-
     display: flexbox;
     width: auto;
     height: auto;
-    margin: 25px;
+    margin: 1vw;
     
 }
 
@@ -280,6 +279,6 @@ svg {
 }
 
 .project-description {
-    margin-left: 65px;
+    margin-left: 6vw;
     
 }

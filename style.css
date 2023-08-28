@@ -35,7 +35,7 @@ h1 h2{
 
 
 ul {
-    width: 15vw;
+    width:100px;
     height: auto;
     align-items:center;
     align-content: center;
@@ -97,6 +97,7 @@ p {
     width: 45vw;
     height: 8vw;
     padding-top: 15px;
+    
     justify-content: center;
     text-align: center;
 
@@ -104,11 +105,21 @@ p {
 
 
 img {
-    border-radius: 7rem;
+    border-radius: 3rem;
     margin: 1px;
     width: 35vw;
     height: 20vw;
     text-shadow: 20px 5px 20px #0062ff91;   
+}
+
+img:hover {
+    box-shadow: 3px 6px 10px rgba(253, 43, 232, 0.57), -1em 0 .4em 5px rgba(39, 222, 7, 0.677);
+    transition: .5s;
+    
+}
+
+img:active {
+    box-shadow: 3px 6px 10px rgb(253, 43, 232), -1em 0 .4em 5px rgb(39, 222, 7);
 }
 
 
@@ -159,7 +170,7 @@ svg {
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 20px 5px 20px #0062ff91;
-    font-size: 7vw;
+    font-size: 15vw;
     font-size-adjust: auto;
     padding-right: px;
    
@@ -170,7 +181,7 @@ svg {
 
 /* capitol letters */
 .first-name, .last-name {
-    font-size: 10vw;
+    font-size: 20vw;
     font-weight: bold;
     width: 10%;
 }
@@ -238,6 +249,8 @@ svg {
 .project {
     text-align: center;
     margin: 10px;
+    font-size: 13px;
+    
     
 }
 

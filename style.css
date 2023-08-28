@@ -35,7 +35,7 @@ h1 h2{
 
 
 ul {
-    width:100px;
+    width:200px;
     height: auto;
     align-items:center;
     align-content: center;
@@ -94,10 +94,9 @@ a:active, .home-text:active, .about-text:active, .portfolio-text:active, .contac
 
 p {
     margin: 10px;
-    width: 45vw;
+    width: 35vw;
     height: 8vw;
-    padding-top: 15px;
-    
+    padding-top: 12px;
     justify-content: center;
     text-align: center;
 
@@ -249,7 +248,7 @@ svg {
 .project {
     text-align: center;
     margin: 10px;
-    font-size: 13px;
+    font-size: 15px;
     
     
 }
@@ -280,3 +279,6 @@ svg {
     
 }
 
+.project-description {
+    margin-left: 65px;
+}

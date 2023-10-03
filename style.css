@@ -1,284 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-html {
-    display: flexbox;
-    margin: none;
-    scroll-behavior: smooth;
-    background-image: linear-gradient(to left top, #a46bd1, #8b7ee2, #6e8fed, #4f96f2, #32aaf2, #29a0e2, #2196d2, #1a8cc2, #176ca1, #0f4371, #0a264a, #020d25);
-    background-attachment: fixed;
-    background-size: cover;
-    
-    
-    
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Sriracha&display=swap');
 
-    }
 
+
+#gabby-icon{
+  position:absolute;
+  width:50px;
+  height:50px;
+  
+  bottom:0;
+  right:0;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-size:30px;
+  text-decoration:none;
+  margin:5px;
+  font-family:cursive;
+  box-shadow:2px 2px 2px grey;
+}
+
+#gabby-icon:hover{
+  background:#0c84bb00;
+  transition:background ease 1s;
+
+}
 body {
-    margin: none;
-    display: flexbox;
-    align-content: center;
-    align-items: center;
-    height: auto;
-    background-repeat:no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    
-    
-    }
+  margin: none;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  
 
-h1 h2{
-    display: flexbox;
-    width: 200vw;
-    height: 200vw;
-    
+  
+}
+nav{
+  width:100%;
+  background:#00637f00;
+  position:fixed;
+  top:0;
+  height:50px;
+  display: flex;
+  justify-content:flex-end;
+}
+
+label{
+  display:none;
+}
+
+.ph {
+  display: none;
 }
 
 
-ul {
-    width:200px;
-    height: auto;
-    align-items:center;
-    align-content: center;
-    display: flexbox;
-    list-style-type: none;
+ul li{
+  display: inline;
+}
+
+#nav-button{
+  display:none;
+}
+
+nav a{
+  text-decoration:none;
+  color:  rgb(164, 233, 239);
+  font-size: 28px;
+  align-items: center;
+  text-align: center;
+  padding-right: 4rem;
+
+  
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color:  rgb(164, 233, 239) ;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 4px 3px 1px rgb(103, 2, 2), 1em 1em 1em rgb(0, 0, 0), 0 0 0.2em rgb(95, 81, 2);
+    display: flex;
     margin: none;
-    overflow:hidden;
-    position: -webkit-sticky;
-    
-    top: 0;
-    z-index: 3;
-    margin-bottom: 1rem;
-    float: left;
-    padding-left: 1px ;
+    scroll-behavior: smooth;
+    background: rgb(2,0,36);
+    background: linear-gradient(321deg, rgb(1, 53, 52) 30%, rgba(85, 2, 2, 0.798) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    height: auto;
+    width: auto;
     text-align: center;
+    justify-content: center;
+    
     
     
 }
 
 li {
-    width: 1rem;
-    height: auto;
-    display: inline-flexbox;
-    margin: 10px;
-    scroll-behavior: smooth;
-    
+    list-style: none;
 }
-
 
 a {
-    font-size: 1.5vw;
-    width: auto;
-    height: auto;
-    color: azure;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
-    text-align: center;
-    text-shadow: 4px 4px 3px #0062ff91;
-    
-   
-
 }
-
-a:hover, .home-text:hover, .about-text:hover, .portfolio-text:hover, .contact-text:hover {
-    text-shadow: 6px 5px 8px #000000;
-    color: #807d7d;
-    transition: .5s;
-    
-}
-
-a:active, .home-text:active, .about-text:active, .portfolio-text:active, .contact-text:active {
-    text-shadow: 6px 5px 8px #010c60;
-    color: #002aff;
-    
-}
-
-p {
-    margin: 1vw;
-    width: 35vw;
-    height: 8vw;
-    padding-top: 1vw;
-    justify-content: center;
-    text-align: center;
-
-}
-
-
-img {
-    border-radius: 3rem;
-    margin: 1px;
-    width: 35vw;
-    height: 20vw;
-    text-shadow: 20px 5px 20px #0062ff91;   
-}
-
-img:hover {
-    box-shadow: 3px 6px 10px rgba(253, 43, 232, 0.57), -1em 0 .4em 5px rgba(39, 222, 7, 0.677);
-    transition: .5s;
-    
-}
-
-img:active {
-    box-shadow: 3px 6px 10px rgb(253, 43, 232), -1em 0 .4em 5px rgb(39, 222, 7);
-}
-
 
 svg {
-    height: 5vw;
-    width: auto;
-    margin: 2vw;
-    box-shadow: 1px 1px 50px #0062ffa1;
-    border-radius: 25px;
-}
-
-    
-
-
-
-.img-container {
-    display: flexbox;
-    margin: 1vw;
+  margin: none;
+  display: flexbox;
+  width: 8vw;
+  height: auto;
+  
+  
 
 }
 
-.navbar-link {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
-    color: azure;
-    text-shadow: 6px 5px 8px #0062ff91;
-    margin: 5px;
-    background-color: ;
-    
-    
+ul {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
+.intro_logo_pic {
+  margin: 5px;
+  
+  height: auto;
+  width: 600px;
+  padding-top: 20px;
+  
+}
 
+.intro_logo_pic_container {
+  margin: 5px;
+  height: 600px;
+}
 
+.profile_name_container {
+  display: flexbox ;         ;
+  margin: 1px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  
+
+}
 
 .profile-name {
-    display: inline-flexbox;
-    width: auto;
-    height: auto;
-    color: rgb(255, 255, 255);
-    margin: 1vw;
-    display: flexbox;
-    text-align: center;
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 20px 5px 20px #0062ff91;
-    font-size: 15vw;
-    font-size-adjust: auto;
-    padding-right: px;
-   
-    
-    
-    
+  margin: 5px;
+  padding-top: 80px;
+  text-align: center;
+  
 }
-
-/* capitol letters */
-.first-name, .last-name {
-    font-size: 20vw;
-    font-weight: bold;
-    width: 10%;
-}
-
-
-.link-containers {
-    margin: 1vw;
-    height:2vw ;
-    
+.name {
+  font-size: 200px;
 }
 
 .intro-paragraph {
-    display: flexbox ;
-    text-align: center;
-    margin: auto;
-    font-size: 1.5vw;
-    width: 50vw;
-    
+  margin: 30px;
+  width: auto ;
+  height: 450px;
+  padding-top: 120px;
+}
+
+.about_container {
+  margin: 5px;
+  margin-bottom: 100px;
+  display: flex;
+  
+  
 
 }
 
-.intro-container {
-    display: inline-flexbox;
-    margin: 1vw;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: bold;
-    
+.about_paragraph {
+  margin: 30px;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-size: 28px;
+  
 
+
+
+}
+.fishing_img {
+  margin: 30px;
+  margin-left: 150px;
+  width: 400px;
+  border-radius: 30px;
+}
+.fishing_img:hover:active {
+  width: 600px;
+  height: auto;
 }
 
 
-.home-text, .about-text, .portfolio-text, .contact-text{
-    display: flexbox;
-    margin: auto;
-    color: rgba(240, 255, 255, 0);
-    text-shadow: 6px 5px 8px #00000000;
-    transition: .5s;
+
+
+.intro_hello {
+  margin: 1px;
+  font-size: 100px;
+ }
+
+ 
+
+.intro_hello_1 {
+  margin:10px;
+  font-size: 65px;
+  padding-left: 10px;
+  
 }
 
-.skill-container {
-    display: flexbox;
-    width: 100%;
-    text-align: center;
-    text-shadow: 20px 5px 15px #0062ff91;
-    justify-content: space-between;
-    
+.intro_hello_2 {
+  margin: 10px;
+  font-size: 50px;
 }
 
-.skill-title {
-    display: flexbox;
-    margin: 45%;
-    font-size: 3vw;
+.skill_container {
+  
+  margin: 10px;
+  height: 200px;
+  
+}
+.icons {
+
+  display: flexbox;
+  margin-top: 200px;
 }
 
-.project-container {
-    display:grid;
-    grid-template-rows:1vw ;
-    grid-template-columns: 50vw;
-    grid-gap: 3rem ;
-    justify-content: center;
-    
-}
-.project {
-    text-align: center;
-    margin: 10vw;
-    font-size: 1.2vw;
-    
-    
-}
-
-.project-2-title {
-    font-size: 2vw;
-    
-}
-
-.project-2 {
-    display: flexbox;
-    width: auto;
-    height: auto;
-    margin: 1vw;
-    
+.icon_1 {
+  border-radius: 30px;
+  margin: 50px;
+  
 }
 
 .project-title-container {
-    display: flexbox;
-    font-size: 2vw;
-    text-align: center;
+  margin: 10px;
 }
 
+.project-title {
+  font-size: 60px;
+}
 
-.contact-info-container {
-    display: inline-flexbox;
-    
+.project-2-title {
+  margin: 10px;
+  font-size: 30px;
+}
+
+.project-2 {
+  margin: none;
+  display: flexbox;
+}
+
+.code_pen {
+  margin: none;
+  border-radius: 150px;
+  width: 500px;
 }
 
 .project-description {
-    margin-left: 6vw;
+  margin: 10px;
+  padding: 20px 100px 20px;
+  
+  font-size: 30px;
+}
+
+ .contact_title {
+  font-size: 60px;
+ }
+ .contact_container {
+  margin: 30px;
+  margin-top: 300px;
+  display: flex;
+  height: 600px;
+  flex-direction: column;
+  
+ }
+
+ .email_text, .linkedin_text {
+  font-size: 40px;
+  color: rgb(164, 233, 239);
+
+ }
+
+ .mail_icon, .linkedin_icon {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 50px;
+  
+
+
+ }
+#nav-button:checked ~ ul{
+  height:140px;
+  transition: height 1s;
+}
+
+
+@media only screen and (max-width: 800px) {
+
+  #nav-button:checked ~ ul{
+    height:140px;
+    transition: height .5s;
+}
+    nav{
+      align-items:center;
+    }
     
+    nav ul{
+      position:absolute;
+      top:50px;
+      width:100%;
+      background:rgba(0, 0, 0, 0.612);
+      max-height: 0;
+      transition: max-height 0.15s ease-out;
+      overflow:auto;
+      transition:all .5s ease-in-out;
+      border-radius: 8em;
+      display: inline-flex;
+      flex-direction: column;
+      
+    }
+    
+    nav li{
+      display:block;
+      width:100%;
+      padding:5px;  
+      
+      
+
+    }
+    
+    label{
+      display:block;
+      padding:0px 10px;
+      font-size:30px;
+      cursor:pointer;
+    }
+    
+    label:hover{
+      color:rgb(164, 233, 239);
+    }
+
+    
+    
+    nav a{
+      width:100%;
+      display:block;
+    }
+    
+    #nav-button:checked ~ ul{
+        max-height:540px;
+        transition: all 1s ease-in-out;
+    }
+    
+    nav li:hover{
+      background ;
+    }
+  body {
+    font-size: auto;
+    width: 415px;
+    text-align: center;
+    
+  }
+
+  html {
+    margin: none;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .profile_name_container{
+    display: flexbox;
+    margin: none;
+    height: auto;
+    width: 415px;
+  }
+.profile-name, .name {
+  width: 415px;
+  font-size: 70px;
+  
+}
+
+.intro_logo_pic_container {
+  margin: 10px;
+  width: 415px;
+
+}
+
+.intro_logo_pic {
+  width: 415px;
+}
+.intro-paragraph {
+  margin:10px; 
+  width: 415px;
+  height: 80vh;
+  display: inline-flexbox;
+  
+  
+}
+
+.hello {
+  font-size: 100px;
+  display: inline;
+}
+.intro_hello_1 {
+  font-size: 50px;
+  
+}
+.intro_hello_2 {
+  display: inline;
+  font-size: 30px;
+  
+}
+
+.about_container {
+  margin: none;
+  display: block;
+  width: 415px;
+
+}
+
+.fishing_img {
+  margin: 5px;
+  width: 300px;
+  height: auto;
+}
+.about_paragraph {
+  
+  font-size: 20px;
+  width: 300px;
+}
+
+.skill_container {
+  margin: 50px;
+  display: inline-flex;
+}
+
+.icons {
+  display: flex;
+ margin: 15px;
+ width: 415px;
+}
+
+.icon_1 {
+  margin: 20px;
+  
+}
+
+.project {
+  margin: 5px;
+  width: 415px;
+  height: 500px;
+}
+
+.code_pen {
+  margin: 10px;
+  width: 300px;
+}
+
+.project-title {
+  font-size: 50px;
+}
+.project-description {
+  margin: 5px;
+  width: 415px;
+  height: 500px;
+  font-size: 22px;
+  padding: 0 0;
+  
+  
+}
+
+.contact_container {
+  margin-top: 50vh;
+  margin-bottom: 10vh;
+  height: 150px;
+  width: 415px;
+}
+
+.contact_title {
+  font-size: 50px;
+}
+
+.email_text, .linkedin_text {
+  font-size: 25px;
+}
+
+.mail_icon, .linkedin_icon {
+  width: 25px;
+}
 }

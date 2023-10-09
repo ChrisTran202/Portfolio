@@ -88,7 +88,7 @@ html {
     font-size: 62.5%;
     color:  rgb(164, 233, 239) ;
     font-family: 'Permanent Marker', cursive;
-    text-shadow: 4px 3px 1px rgb(103, 2, 2), 1em 1em 1em rgb(0, 0, 0), 0 0 0.2em rgb(95, 81, 2);
+    text-shadow: 4px 3px 1px rgb(103, 2, 2), 1em .7em 1em rgba(0, 0, 0, 0.508), 0 .0em .1em rgb(95, 81, 2);
     display: flex;
     margin: none;
     scroll-behavior: smooth;
